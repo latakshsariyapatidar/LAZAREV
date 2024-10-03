@@ -1,0 +1,135 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 7.5vh;
+    width: 87.8%;
+    position:fixed;
+    margin: 0px 6.2%;
+    display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #111111;
+}
+
+.nav-middle-part{
+    display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    gap: 3vw;
+}
+.nav-middle-part h4{
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-middle-part button{
+    padding: 1.5vh 1.5vw;
+    border-radius: 50px;
+    background-color: #0DA34E;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav-middle-part button p{
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-middle-part button svg{
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+nav h1{
+    font-size: 2.3vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#page1{
+    min-height: 100vh;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page1 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    margin-top: 11%;
+}
+
+#page1 h3 span:nth-child(1){
+    font-weight: 900;
+}
+
+#page1 h3 span:nth-child(2){
+    font-weight: 400;
+    opacity: 75%;
+}
+#page1 h3 span:nth-child(3){
+    font-weight: 100;
+    opacity: 50%;
+}
+
+#page1 h1{
+    font-size: 6vw;
+    line-height: 6vw;
+    text-transform:capitalize;
+    overflow: hidden;
+}
+
+#page1 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+
+#page1 h4 span{
+    color: #0DA34E;
+    background-color: #0f9b4c1e;
+    padding: 0.1vh 1vw;
+    border-radius: 50px;
+    border: #0DA34E 1px solid;
+}
+
+#page1 #videoContainer{
+    height: 80vh;
+    width: 80%;
+    margin-top: 5vw;
+    /* background-color: red; */
+    margin-bottom: 8vh;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+#page1 #videoContainer video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    /* display: none; */
+}
+
